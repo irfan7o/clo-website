@@ -8,7 +8,7 @@
     text-decoration: none;
 }/* Add styles here */
 
-.header {
+header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -17,11 +17,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10%;
+    padding: 40px 10%;
 }
 
 .logo img{
-    max-width: 120px;
+    max-width: 100px;
     height: auto;
 }
 
@@ -65,7 +65,6 @@
     color: #2C2C2C;
     z-index: 10001;
     cursor: pointer;
-    display: none;
 }
 
 section {
@@ -78,4 +77,70 @@ section {
     background-image: url(../assets/banner-3.png);
     background-position: center;
     background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.main-text h5 {
+    color: #EE1C47;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.main-text h1 {
+    color: #2C2C2C;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+
+.main-text p {
+    color: #2C2C2C;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    display: inline-block;
+    color: #2C2C2C;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #2C2C2C;
+    padding: 12px 25px;
+    transition: all .42s ease;
+    border-radius: 50px;
+}
+
+.main-btn:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+.main-btn i {
+    vertical-align: middle;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+
+.down i {
+    font-size: 30px;
+    color: #2C2C2C;
+    border: 2px solid #2C2C2C;
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+
+.down i:hover {
+    background-color: #2C2C2C;
+    color: #FFF;
 }
