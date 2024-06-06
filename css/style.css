@@ -143,4 +143,5 @@ section {
 .down i:hover {
     background-color: #2C2C2C;
     color: #FFF;
+    transition: all .42s ease;
 }
