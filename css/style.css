@@ -207,3 +207,21 @@ header.sticky {
 .heart-icon:hover {
     color: #EE1C47;
 }
+
+.ratting i {
+    color: #FF8C00;
+    font-size: 18px;
+}
+
+.price h4 {
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p {
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}
