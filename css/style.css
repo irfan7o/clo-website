@@ -361,3 +361,14 @@ header.sticky {
 .social-icon i:hover {
     transform: scale(1.3);
 }
+
+.end-text {
+    background-color: #edfff1;
+    text-align: center;
+    padding: 20px;
+}
+
+.end-text p {
+    color: #111;
+    text-transform: capitalize;
+}
