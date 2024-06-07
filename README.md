@@ -1,7 +1,7 @@
 # Clo Fashion Website
 
 This is a Clo Fashion Website template created using HTML and CSS.
-[Live Demo]()
+[Live Demo](https://irfan7o.github.io/clo-website/)
 
 
 ## 🔗 Links
