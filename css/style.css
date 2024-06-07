@@ -101,7 +101,6 @@ section {
 .main-text p {
     color: #2C2C2C;
     font-size: 20px;
-    font-style: italic;
     margin-bottom: 20px;
 }
 
@@ -114,7 +113,6 @@ section {
     border: 2px solid #2C2C2C;
     padding: 12px 25px;
     transition: all .42s ease;
-    border-radius: 50px;
 }
 
 .main-btn:hover {
@@ -371,4 +369,65 @@ header.sticky {
 .end-text p {
     color: #111;
     text-transform: capitalize;
+}
+
+.five-info input {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.five-info button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+}
+
+@media(max-width: 890px) {
+    header {
+        padding: 20px 3%;
+        transition: .4s;
+    }
+}
+
+@media(max-width:630px){
+    .main-text h1 {
+        font-size: 50px;
+        transition: .4s;
+    }
+    .main-text p {
+        font-size: 18px;
+        transition: .4s;
+    }
+    .main-btn {
+        padding: 10px 20px;
+        transition: .4s;
+    }
+}
+
+@media(max-width:750px) {
+    .navmenu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s ease;
+    }
+    .navmenu a {
+        display: block;
+        margin: 18px 0;
+    }
+    .navmenu.open {
+        right: 0;
+    }
 }
